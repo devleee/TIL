@@ -2,7 +2,7 @@
 
 >`<a>` tag can have the `target` attribute to specify where to open the linked document. The default value is `_self` (which means opening the link in the current tab). `target="_blank"` can be used to open the link in a new tab but there are some things need to be considered.
 
-### 1. Do you realley need to use `target="_blank"`?
+### 1. Do you really need to use `target="_blank"`?
 - `target="_self"` is the default for reason. Most browsers allow users to choose where to open the link, so let the users handle it. Use it only when you want to leave the current page as it is, for example:
   - The user is working on something on the page and it will be lost if the current page changes.
   - There is user-initiated media (audio, video, ...) playing on the page.
