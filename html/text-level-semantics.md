@@ -45,3 +45,17 @@
   <p><strong>Now selling for $12.99</strong></p>
   ```
 - Not appropriate to use `<s>` when indicating deleted text. Use `<del>` instead.
+
+### Accessibility
+- The presence of the `<del>`/`<ins>` element is not announced by most screen reading technology in its default configuration.
+- By using CSS `content` property in `::before`, `::after` pseudo-elements, you can indicate the text has been deleted/inserted. It is important not to abuse this technique and only apply it when it is absolutely necessary.
+- Example : 
+  ```css
+  del::before {
+    content: " [deletion start] ";
+  }
+
+  del::after {
+    content: " [deletion end] ";
+  }
+  ```
