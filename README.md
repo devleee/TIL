@@ -1,4 +1,10 @@
 # TIL
 >Today I Learned
 
-1 TIL since 31 Oct, 2020
+## HTML
+- [Table](https://github.com/devleee/TIL/blob/master/html/table.md)
+- [Text-level Semantics](https://github.com/devleee/TIL/blob/master/html/text-level-semantics.md)
+- [Using target="_blank" attribute in an a tag](https://github.com/devleee/TIL/blob/master/html/target-blank.md)
+
+## CSS
+- [CSS Selector](https://github.com/devleee/TIL/blob/master/css/css-selector.md)
