@@ -76,3 +76,47 @@
   <!-- $= : case 2 -->
   <!-- |= : case 4 -->
   ```
+
+### Combinator
+- Explains the relationship between the selectors
+  - **Descendant Combinator (space)** : Selects nodes that are descendants of the first element.
+  - **Child Combinator (>)** :  Selects nodes that are direct children of the first element.
+  - **Adjacent Sibling Combinator (+)** : Selects adjacent sibling (the second element directly follows the first).
+  - **General sibling combinator (~)** : Selects siblings that follow the first
+  ```html
+  <ul>
+    <li>
+      <p>Item 1</p>
+      <ul class="parent">
+        <li>Sub-Item A</li>
+        <li>Sub-Item B</li>
+      </ul>
+    </li>
+    <li>
+      <p>Item 2</p>
+      <ul>
+        <li>Sub-Item C</li>
+        <li class="sibling">Sub-Item D</li>
+        <li>Sub-Item E</li>
+        <li>Sub-Item F</li>
+      </ul>
+    </li>
+  </ul>
+  ```
+  ```css
+  /* Descendant Combinator */
+  ul li { font-style: italic; } 
+  /* Select Item 1, 2, Sub-Item A, B, C, D, E, F */
+
+  /* Child Combinator */
+  .parent > li { font-style: italic; } 
+  /* Select Sub-Item A, B */
+
+  /* Adjacent Sibling Combinator */
+  .sibling + li { font-style: italic; } 
+  /* Select Sub-Item E */
+
+  /* General Sibling Combinator */
+  .sibling ~ li { font-style: italic; } 
+  /* Select Sub-Item E, F */
+  ```
