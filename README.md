@@ -8,3 +8,4 @@
 
 ## CSS
 - [CSS Selector](https://github.com/devleee/TIL/blob/master/css/css-selector.md)
+- [Text Wrapping](https://github.com/devleee/TIL/blob/master/css/text-wrapping.md)
