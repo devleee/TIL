@@ -8,6 +8,7 @@
 
 ## CSS
 - [CSS Selector](https://github.com/devleee/TIL/blob/master/css/css-selector.md)
+- [Cascading](https://github.com/devleee/TIL/blob/master/css/cascading.md)
 - [Specificity](https://github.com/devleee/TIL/blob/master/css/specificity.md)
 - [Inheritance](https://github.com/devleee/TIL/blob/master/css/inheritance.md)
 - [Text Wrapping](https://github.com/devleee/TIL/blob/master/css/text-wrapping.md)
