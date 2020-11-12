@@ -5,13 +5,13 @@
 ### Cascading order
 1. Importance : Rules with `!important` keyword overrule all the others
 2. Source :
-  - If there is `!important` : user agent (browser) > user > author
-  - If there is no `!important` : author > user > user agent (browser)
+    - If there is `!important` : user agent (browser) > user > author
+    - If there is no `!important` : author > user > user agent (browser)
 3. [Specificity](https://github.com/devleee/TIL/blob/master/css/specificity.md)
 4. If there is more than one rule with equal importance/source/specificity, the one that comes last in the CSS is the one that will be used.
 
 Example : 
-  What colour is *item 1* be?
+  What colour is *item 1*?
   ```html
     <div id="foo">
       <h1 class="bar">title</h1>
