@@ -1,5 +1,14 @@
 # Typography
 
+### `font` Syntax
+- `font: font-style font-variant font-weight font-size/line-height font-family | initial | inherit`
+- Must include `font-size` and `font-family`.
+- Properties that are not specified are set to default value.
+- Example : 
+  ```css
+  p { font: italic small-caps 600 32px/1.5 Dotom, "돋움", sans-serif }
+  ```
+
 ### Font Family
 ```css
 p { font-family: family-name, generic-family }
@@ -23,7 +32,7 @@ p { font-family: family-name, generic-family }
 - `text-overflow: clip` : The text content is clipped and not accessible (default).
 - `text-overflow: ellipsis;` : The overflowing content is replaced by an ellipsis(…).
 
-### Line hieght
+### Line Hieght
 ![Image of typography](../assets/typography.png)
 ```css
 p { font-size: 20px; line-height: normal; }
@@ -37,3 +46,12 @@ p { font-size: 20px; line-height: 150%; } /*line-height: 30px*/
 - Percentage : Relative to the font size of the element itself. The child element inherits computed value of the parent.
 - `line-height: 1.5` ≠ `line-height: 150%` 
   ![Image of line-height](../assets/line-height.png)
+
+### Vertical Align
+> `vertical-align` sets vertical alignment of an inline, inline-block or table-cell box.
+
+- Vertically align inline elements
+![Image of vertical-align](../assets/vertical-align.png)
+
+- Vertically align the content of a table cell 
+![Image of table vertical-align](../assets/table-vertical-align.png)
