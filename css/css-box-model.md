@@ -20,6 +20,16 @@
 - **Padding box** : The padding sits around the content as white space.
   - The size of `padding` can be set as a percentage, relative to the **width** of the containing block.
 - **Border box** : The border box wraps the content and any padding.
+  - `border` shorthand property
+    ```css
+    div {
+      border: 1px solid black;
+    }
+    /* border-width border-style border-color */
+    /* border-width : medium(default) */
+    /* border-style : required */
+    /* border-color: currentcolor(default) */
+    ```
 - **Margin box** : The margin is the outermost layer, whitespace between the element and others.
   - The size of `margin` can be set as a percentage, relative to the **width** of the containing block.
   - `margin` can have negative values.
@@ -30,7 +40,12 @@
     - Empty block
 
     If one of the margins is negative, the size of the collapsed margin is the sum of the largest positive margin and the smallest negative margin. If all margins are negative, the size of the collapsed margin is the smallest margin. 
-
+- `width` : Set the width of the content area (default).
+  - If `box-sizing` is set to `border-box`, it sets the width of the border area (content width + padding left&right + border left&right).
+  - Values : `auto`, length, percentage (relative to the containing block's width)
+- `height` : Sets the height of the content area (default). 
+  - If `box-sizing` is set to `border-box`, it sets the height of the border area.
+  - Values : `auto`, length, percentage (relative to the containing block's width - it can be used only when the parent element doesn't have explicit height value).
   
 
 
