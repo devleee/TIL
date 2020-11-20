@@ -17,3 +17,4 @@
 - [CSS Box Model](https://github.com/devleee/TIL/blob/master/css/css-box-model.md)
 - [Typography](https://github.com/devleee/TIL/blob/master/css/typography.md)
 - [Background](https://github.com/devleee/TIL/blob/master/css/background.md)
+- [Optimise Web Font](https://github.com/devleee/TIL/blob/master/css/optimise-web-font.md)
