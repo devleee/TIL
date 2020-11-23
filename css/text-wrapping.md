@@ -39,3 +39,19 @@
   </div>
   ```
   ![Image of the table](../assets/white-space.png)
+
+### `word-break`
+- Specifies how words should break when reaching the end of a line.
+- `normal` : Default. Use the default line break rule (at white space or hyphen(-)).
+- `break-all` : To prevent overflow, word may be broken between any two characters.
+- `keep-all` : Word breaks should not be used for CJK text. Non-CJK text behavior is the same as value "normal"
+- `break-word` : To prevent overflow, word may be broken at arbitrary points (same effect as `word-break: normal` and `overflow-wrap: anywhere`). More readable than `break-all`.
+![Image of word-break](../assets/word-break.png)
+
+### `hyphens`
+- Defines whether hyphenation is allowed to create more soft wrap opportunities within a line of text.
+- `none` : Words are not hyphenated. Lines will only wrap at whitespace.
+- `manual` : Default. If needed, words are hyphenated at characters inside the word suggest line break opportunities (`&hyphen;` or `&shy;`).
+  - `&hyphen;` : A visible line break opportunity. Even if the word doesn't break, the hyphen is still rendered.
+  - `&shy;` : An invisible, "**s**oft" **hy**phen. It marks a place where the browser should break the word if hyphenation is necessary.
+- `auto` : The browser decides where the words are hyphenated. However, suggested line break opportunities will override automatic break point.
