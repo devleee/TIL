@@ -11,6 +11,7 @@
           url('/fonts/SomeFont.woff') format('woff'),
           url('/fonts/SomeFont.ttf') format('truetype');
       /* ttf is used as a fallback in case the browser does not support neither woff2 nor woff */
+      /* cf. Why need `format`? It helps the browser to download only the font file that it supports. */
     }
     ```
 2. Consider **font subsetting**.
@@ -56,3 +57,4 @@
   ```html
   <link rel="preload" href="fonts/SomeFont.woff2" as="font" type="font/woff2" crossorigin>
   ```
+  - It is not supported in Firefox and IE.
