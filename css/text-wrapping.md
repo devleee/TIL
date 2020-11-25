@@ -19,6 +19,7 @@
 - **White space** : A set of characters which is used to show horizontal or vertical spaces between other characters.
 - `normal` : White spaces are collapsed as well as newline characters. Lines are broken as necessary to fill line boxes.
 - `nowrap` : White spaces are collapsed as well as newline characters. No text wrapping.
+  - Example : [Used with 'text-overflow: ellipsis' and 'overflow: hidden'](https://codepen.io/devleee/pen/KKgPLGM)
 - `pre` : White spaces are preserved. Lines are only broken at newline characters and at `<br>` elements.
 - `pre-wrap` : White spaces are preserved. Lines are broken at newline characters, at `<br>`, and as necessary to fill line boxes.
 - `pre-line` : White spaces are collapsed. Lines are broken at newline characters, at `<br>`, and as necessary to fill line boxes.
