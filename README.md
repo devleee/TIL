@@ -20,3 +20,4 @@
 - [Background](https://github.com/devleee/TIL/blob/master/css/background.md)
 - [Optimise Web Font](https://github.com/devleee/TIL/blob/master/css/optimise-web-font.md)
 - [Position: Sticky and Table Header](https://github.com/devleee/TIL/blob/master/css/position-sticky-and-table-header.md)
+- [Media Query Syntax](https://github.com/devleee/TIL/blob/master/css/media-query-syntax.md)
