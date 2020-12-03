@@ -1,8 +1,12 @@
 # CSS Grid & Flexbox
 > CSS grid is for 2D layout, Flexbox is for alignment
 
-- CSS Grid : A multi-dimension layout module, which lays out items in **two dimensions** (rows **AND** columns).
-- Flexbox : Lays out items in a **single dimension** (a row **OR** a column)
+- CSS Grid
+  - A multi-dimension layout module, which lays out items in **two dimensions** (rows **AND** columns).
+  - [CSS Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- Flexbox
+  Lays out items in a **single dimension** (a row **OR** a column)
+  - [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 - When to use CSS grid?
   - For layouts consisted of rows and columns
@@ -16,3 +20,5 @@
   - Flexbox has slightly better browser support (some of the order versions don't support CSS grid)
   - Examples : navigation, tabs, form elements, aligning inline elements, small-scale layouts
   
+- Combining CSS Grid & Flexbox
+  - Example : [Card layout](https://codepen.io/devleee/pen/rNMxwZL)
