@@ -23,3 +23,4 @@
 - [Media Query Syntax](https://github.com/devleee/TIL/blob/master/css/media-query-syntax.md)
 - [CSS Gradient Usage](https://github.com/devleee/TIL/blob/master/css/css-gradient-usage.md)
 - [CSS Grid & Flexbox](https://github.com/devleee/TIL/blob/master/css/css-grid-and-flexbox.md)
+- [Content-Visibility](https://github.com/devleee/TIL/blob/master/css/content-visibility.md)
