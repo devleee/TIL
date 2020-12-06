@@ -62,6 +62,15 @@
 </table>
 ```
 
+### Responsive Table
+1. Squash : If there's enough horizontal space inside of each cell, don't change the layout of the table. Just adjust the width of the cells depending on the screen size.
+2. Horizontal Scroll : By setting `overflow-x` to `auto`, the table will be scrollable horizontally. It is easy to apply and the table will keep its layout. 
+3. Horizontal Scroll With Static Primary Column : The primary column is be fixed to the left while other columns are scrolled horizontally for better navigation.
+4. Shorten : Leave out unnecessary columns to keep the table concise. 
+5. Collapsed Rows : Collapse the rows into separate tables and stack them. It is useful for a long table.
+- [Example](https://codepen.io/devleee/pen/KKgzJyy)
+
+
 
 
 
