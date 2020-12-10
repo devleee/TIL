@@ -6,6 +6,7 @@
 - [Text-level Semantics](https://github.com/devleee/TIL/blob/master/html/text-level-semantics.md)
 - [Using target="_blank" attribute in an a tag](https://github.com/devleee/TIL/blob/master/html/target-blank.md)
 - [Viewport](https://github.com/devleee/TIL/blob/master/html/viewport.md)
+- [Web Accessibility](https://github.com/devleee/TIL/blob/master/html/web-accessibility.md)
 
 ## CSS
 - [CSS Selector](https://github.com/devleee/TIL/blob/master/css/css-selector.md)
